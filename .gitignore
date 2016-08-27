@@ -9,3 +9,6 @@ build
 # misc
 .DS_Store
 npm-debug.log
+
+# android key
+android/app/my-release-key.keystore
