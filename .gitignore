@@ -11,4 +11,7 @@ build
 npm-debug.log
 
 # android key
+android/.gradle
 android/app/my-release-key.keystore
+
+ios/build
