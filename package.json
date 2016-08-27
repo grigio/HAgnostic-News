@@ -2,7 +2,7 @@
   "name": "rnw-app",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://myname.github.io/myapp",
+  "homepage": "http://grigio.github.io/HAgnostic-News",
   "devDependencies": {
     "react-scripts": "0.2.3"
   },

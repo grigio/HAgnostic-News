@@ -1,19 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
-// import React, { Component } from 'react';
-// import {
-//   AppRegistry,
-//   StyleSheet,
-//   Text,
-//   View
-// } from 'react-native';
-
 import React from 'react';
 import {AppRegistry } from 'react-native'
-import App from './src/App'
+import AppContainer from './src/AppContainer'
 
-AppRegistry.registerComponent('rnapp', () => App);
+AppRegistry.registerComponent('rnapp', () => AppContainer)

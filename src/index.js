@@ -1,6 +1,6 @@
 import { AppRegistry } from 'react-native'
-import App from './App'
+import AppContainer from './AppContainer'
 
 // App registration and rendering
-AppRegistry.registerComponent('MyApp', () => App)
+AppRegistry.registerComponent('MyApp', () => AppContainer)
 AppRegistry.runApplication('MyApp', { rootTag: document.getElementById('root') })
