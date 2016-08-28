@@ -1,14 +1,12 @@
 import { StyleSheet } from 'react-native'
 import { color } from 'react-native-material-design-styles';
 
-// Styles
-// const colors = StyleSheet.create(color);
-// const colors = {
-//   orange: '#ff6600',
-//   lightOrange: '#ff8300',
-// }
-
 export default StyleSheet.create({
+  aboutLink: {
+    color:color.paperOrange600.color,
+    fontWeight:'bold',
+    padding:10
+  },
   card: {
     flex: 1,
     justifyContent: 'center'
