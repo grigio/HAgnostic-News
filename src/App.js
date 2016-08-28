@@ -51,7 +51,7 @@ export default class App extends React.Component {
       <Card>
         {Platform.OS === 'android' ? (
           <StatusBar backgroundColor={'#d25500'} />
-        ) : null}
+        ) : <View></View>}
         <View style={styles.body}>
 
         <Overlay visible={overlayVisible}>
