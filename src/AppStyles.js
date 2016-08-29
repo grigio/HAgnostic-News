@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native'
-import { color } from 'react-native-material-design-styles';
+import { color } from 'react-native-material-design-styles'
 
 export default StyleSheet.create({
   aboutLink: {
-    color:color.paperOrange600.color,
-    fontWeight:'bold',
-    padding:10
+    color: color.paperOrange600.color,
+    fontWeight: 'bold',
+    padding: 10
   },
   card: {
     flex: 1,
@@ -30,8 +30,8 @@ export default StyleSheet.create({
   row: {
     alignItems: 'center',
     justifyContent: 'space-around',
-    flexDirection: 'row',
-    //height: 50,
+    flexDirection: 'row'
+  // height: 50,
   },
   buttonRow: {
     justifyContent: 'center',
@@ -51,46 +51,48 @@ export default StyleSheet.create({
   itemSubRow: {
     backgroundColor: 'rgb(223,223,223)',
     justifyContent: 'space-around',
-    flexDirection: 'row',    
+    flexDirection: 'row',
     borderBottomWidth: 1,
-    borderColor: '#eee',
+    borderColor: '#eee'
   },
   column: {
     // justifyContent: 'space-around',
-    flexDirection: 'column',
-    // flex: 1,
-    //alignItems: 'center'
+    flexDirection: 'column'
+  // flex: 1,
+  // alignItems: 'center'
   },
   box: {
     alignItems: 'center',
     // flex: 1,
     // justifyContent: 'center',
-    borderWidth: 1,
-    // height: 20
+    borderWidth: 1
+  // height: 20
   },
   scrollViewContainer: {
     // height: 400,
-    flex: 1,
+    flex: 1
   },
   scrollViewStyle: {
     // borderWidth: 1
   },
   scrollViewContentContainerStyle: {
     paddingTop: 2,
-    paddingBottom: 2,
+    paddingBottom: 2
   },
-  button : {
-    paddingLeft: 10, paddingRight: 10,
-    paddingTop: 8, paddingBottom: 8,
-    borderRadius:20
+  button: {
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 8,
+    paddingBottom: 8,
+    borderRadius: 20
   },
   buttonOrange: {
-    // borderColor:'orange', 
+    // borderColor:'orange',
     backgroundColor: color.paperDeepOrange500.color
   },
   buttonGray: {
-    //borderColor:'gray',
+    // borderColor:'gray',
     borderWidth: 0,
-    backgroundColor:'#eee',
+    backgroundColor: '#eee'
   }
 })
