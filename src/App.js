@@ -36,13 +36,7 @@ export default class App extends React.Component {
   }
 
   scrollToTop () {
-    if (Platform.OS === 'web') {
-      document.getElementsByClassName('scrollView')[0].scrollTo(0, 0)
-    }
-    // native
-    if (Platform.OS === 'android' || Platform.OS === 'ios') {
-      this.refs._scrollView.scrollTo({x: 0, y: 0, animated: true})
-    }
+    this.refs._scrollView.scrollTo({x: 0, y: 0, animated: true})
   }
 
   render () {
