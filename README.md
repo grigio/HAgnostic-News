@@ -9,7 +9,7 @@ From the same codebase you can render apps for the platform Web and natively for
 ### Web
 
 ```
-npm run start
+yarn run start
 ```
 
 or [Live](https://grigio.github.io/HAgnostic-News/)
