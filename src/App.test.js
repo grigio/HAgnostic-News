@@ -17,3 +17,19 @@ it('renders without crashing', () => {
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+it('renders without crashing with Overlay visible', () => {
+  const tree = renderer.create(
+    <App
+      items={[]}
+      errors={{}}
+      loading={false}
+      filter={'Top'}
+      overlayVisible={true}
+      onOpenUrl={()=>{}}
+      onLoadItems={()=>{}}
+      onLoadMore={()=>{}}
+      onToggleOverlay={()=>{}} />
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});

@@ -345,3 +345,458 @@ exports[`test renders without crashing 1`] = `
   </View>
 </View>
 `;
+
+exports[`test renders without crashing with Overlay visible 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }>
+  <View />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffb74d",
+        "flex": 1,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "marginTop": 48,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "backgroundColor": "rgba(52,52,52, 0.0)",
+            "color": "white",
+            "fontSize": 28,
+            "marginLeft": 675,
+            "zIndex": 3,
+          }
+        }>
+        ⏏
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,80)",
+            "height": 400,
+            "marginTop": -17,
+            "padding": 10,
+            "width": 750,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }>
+            HAgnostic News
+          </Text>
+           is a simple Hacker News reader for the Web and a React Native app (Android / iOS).
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 18,
+              "marginTop": 20,
+            }
+          }>
+          Made with ❤ by
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            onPress={[Function]}>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#fb8c00",
+                    "fontWeight": "bold",
+                    "padding": 10,
+                  },
+                  Object {},
+                ]
+              }>
+               
+              Luigi Maselli
+            </Text>
+          </Text>
+          , source code:
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            onPress={[Function]}>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#fb8c00",
+                    "fontWeight": "bold",
+                    "padding": 10,
+                  },
+                  Object {},
+                ]
+              }>
+               
+              github.com/grigio/HAgnostic-News
+            </Text>
+          </Text>
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "column",
+          },
+          Object {
+            "backgroundColor": "#ff9800",
+          },
+          Object {
+            "height": 75,
+            "paddingTop": 20,
+          },
+        ]
+      }>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            },
+            Object {
+              "height": 50,
+            },
+          ]
+        }>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }>
+          <Image
+            source={1}
+            style={
+              Object {
+                "width": 20,
+              }
+            } />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "paddingLeft": 4,
+                },
+              ]
+            }>
+            HAgnostic News
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "fontSize": 12,
+                  "paddingLeft": 4,
+                },
+              ]
+            }>
+             
+            ios
+          </Text>
+        </View>
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hitSlop={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "paddingBottom": 8,
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "backgroundColor": "#ff5722",
+                },
+              ],
+            ]
+          }
+          testID={undefined}>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              }
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                  "fontWeight": "bold",
+                  "paddingRight": 5,
+                }
+              }>
+              Top
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hitSlop={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "paddingBottom": 8,
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                  "paddingTop": 8,
+                },
+                null,
+              ],
+            ]
+          }
+          testID={undefined}>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              }
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                  "fontWeight": "bold",
+                  "paddingRight": 5,
+                }
+              }>
+              Latest
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hitSlop={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              undefined,
+            ]
+          }
+          testID={undefined}>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "white",
+                "fontWeight": "bold",
+                "padding": 10,
+              }
+            }>
+            ?
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }>
+      <ScrollView
+        className="scrollView"
+        contentContainerStyle={
+          Object {
+            "paddingBottom": 2,
+            "paddingTop": 2,
+          }
+        }
+        scrollEventThrottle={1}
+        style={Object {}}>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "backgroundColor": "rgb(223,223,223)",
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "padding": 2,
+                "paddingTop": 10,
+              },
+              Object {
+                "justifyContent": "center",
+                "paddingBottom": 10,
+              },
+            ]
+          }>
+          <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            hitSlop={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Array [
+                  Object {
+                    "borderRadius": 20,
+                    "paddingBottom": 8,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "backgroundColor": "#eee",
+                    "borderWidth": 0,
+                  },
+                ],
+              ]
+            }
+            testID={undefined}>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                  },
+                  Object {
+                    "height": 20,
+                  },
+                ]
+              }>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                  }
+                }>
+                Load more
+              </Text>
+            </View>
+          </View>
+        </View>
+      </ScrollView>
+    </View>
+  </View>
+</View>
+`;
