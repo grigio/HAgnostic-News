@@ -6,6 +6,8 @@ HAgnostic News is an Hacker News reader which is available for the Web and as Re
   <img src="https://travis-ci.org/grigio/HAgnostic-News.svg" alt="Build Status" />
 </a>
 
+  <img src="https://david-dm.org/grigio/HAgnostic-News.svg" alt="Deps Status" />
+
 ![HAgnostic News](https://cloud.githubusercontent.com/assets/8074/18037131/149c2f34-6d7d-11e6-83d0-82af574301e3.png)
 
 From the same codebase you can render apps for the platform Web and natively for Android and iOS. Thanks to [React Native](https://facebook.github.io/react-native/) and [React Native Web](https://github.com/necolas/react-native-web).
