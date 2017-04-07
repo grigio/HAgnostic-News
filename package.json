@@ -15,7 +15,7 @@
     "react-dom": "~15.4.1",
     "react-native": "^0.39.2",
     "react-native-material-design-styles": "^0.2.6",
-    "react-native-web": "0.0.68"
+    "react-native-web": "0.0.81"
   },
   "scripts": {
     "start": "react-scripts start",
