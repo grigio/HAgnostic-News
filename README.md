@@ -20,14 +20,6 @@ yarn run start
 
 or [Live](https://grigio.github.io/HAgnostic-News/)
 
-### Android
+### Expo
 
-```
-react-native run-android
-```
-or Download from the [Play Store](https://play.google.com/store/apps/details?id=com.hagnosticnews)
-
-### iOS
-```
-react-native run-ios 
-```
+Use Expo to try Android and iOS versions
