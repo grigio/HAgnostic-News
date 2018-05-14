@@ -25,13 +25,14 @@ export default StyleSheet.create({
   },
   body: {
     flex: 1,
+    paddingTop: 20,
     backgroundColor: color.paperOrange300.color
   },
   row: {
     alignItems: 'center',
     justifyContent: 'space-around',
     flexDirection: 'row'
-  // height: 50,
+    // height: 50,
   },
   buttonRow: {
     justifyContent: 'center',
@@ -58,15 +59,15 @@ export default StyleSheet.create({
   column: {
     // justifyContent: 'space-around',
     flexDirection: 'column'
-  // flex: 1,
-  // alignItems: 'center'
+    // flex: 1,
+    // alignItems: 'center'
   },
   box: {
     alignItems: 'center',
     // flex: 1,
     // justifyContent: 'center',
     borderWidth: 1
-  // height: 20
+    // height: 20
   },
   scrollViewContainer: {
     // height: 400,

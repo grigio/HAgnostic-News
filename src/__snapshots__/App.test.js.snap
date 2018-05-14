@@ -1,11 +1,14 @@
-exports[`test renders without crashing 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
 <View
   style={
     Object {
       "flex": 1,
       "justifyContent": "center",
     }
-  }>
+  }
+>
   <View />
   <View
     style={
@@ -13,7 +16,8 @@ exports[`test renders without crashing 1`] = `
         "backgroundColor": "#ffb74d",
         "flex": 1,
       }
-    }>
+    }
+  >
     <View />
     <View
       style={
@@ -29,7 +33,8 @@ exports[`test renders without crashing 1`] = `
             "paddingTop": 20,
           },
         ]
-      }>
+      }
+    >
       <View
         style={
           Array [
@@ -42,7 +47,8 @@ exports[`test renders without crashing 1`] = `
               "height": 50,
             },
           ]
-        }>
+        }
+      >
         <View
           style={
             Object {
@@ -50,14 +56,16 @@ exports[`test renders without crashing 1`] = `
               "flexDirection": "row",
               "justifyContent": "space-around",
             }
-          }>
+          }
+        >
           <Image
             source={1}
             style={
               Object {
                 "width": 20,
               }
-            } />
+            }
+          />
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -69,7 +77,8 @@ exports[`test renders without crashing 1`] = `
                   "paddingLeft": 4,
                 },
               ]
-            }>
+            }
+          >
             HAgnostic News
           </Text>
           <Text
@@ -83,7 +92,8 @@ exports[`test renders without crashing 1`] = `
                   "paddingLeft": 4,
                 },
               ]
-            }>
+            }
+          >
              
             ios
           </Text>
@@ -96,6 +106,7 @@ exports[`test renders without crashing 1`] = `
           hasTVPreferredFocus={undefined}
           hitSlop={undefined}
           isTVSelectable={true}
+          nativeID={undefined}
           onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -106,24 +117,20 @@ exports[`test renders without crashing 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
+                "borderRadius": 20,
+                "paddingBottom": 8,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 8,
               },
-              Array [
-                Object {
-                  "borderRadius": 20,
-                  "paddingBottom": 8,
-                  "paddingLeft": 10,
-                  "paddingRight": 10,
-                  "paddingTop": 8,
-                },
-                Object {
-                  "backgroundColor": "#ff5722",
-                },
-              ],
+              Object {
+                "backgroundColor": "#ff5722",
+              },
             ]
           }
           testID={undefined}
-          tvParallaxProperties={undefined}>
+          tvParallaxProperties={undefined}
+        >
           <View
             style={
               Object {
@@ -131,7 +138,8 @@ exports[`test renders without crashing 1`] = `
                 "flexDirection": "row",
                 "justifyContent": "space-around",
               }
-            }>
+            }
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -142,14 +150,16 @@ exports[`test renders without crashing 1`] = `
                   "fontWeight": "bold",
                   "paddingRight": 5,
                 }
-              }>
+              }
+            >
               Top
             </Text>
             <ActivityIndicator
               animating={true}
               color="#999999"
               hidesWhenStopped={true}
-              size="small" />
+              size="small"
+            />
           </View>
         </View>
         <View
@@ -160,6 +170,7 @@ exports[`test renders without crashing 1`] = `
           hasTVPreferredFocus={undefined}
           hitSlop={undefined}
           isTVSelectable={true}
+          nativeID={undefined}
           onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -170,22 +181,18 @@ exports[`test renders without crashing 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
+                "borderRadius": 20,
+                "paddingBottom": 8,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 8,
               },
-              Array [
-                Object {
-                  "borderRadius": 20,
-                  "paddingBottom": 8,
-                  "paddingLeft": 10,
-                  "paddingRight": 10,
-                  "paddingTop": 8,
-                },
-                null,
-              ],
+              null,
             ]
           }
           testID={undefined}
-          tvParallaxProperties={undefined}>
+          tvParallaxProperties={undefined}
+        >
           <View
             style={
               Object {
@@ -193,7 +200,8 @@ exports[`test renders without crashing 1`] = `
                 "flexDirection": "row",
                 "justifyContent": "space-around",
               }
-            }>
+            }
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -204,7 +212,8 @@ exports[`test renders without crashing 1`] = `
                   "fontWeight": "bold",
                   "paddingRight": 5,
                 }
-              }>
+              }
+            >
               Latest
             </Text>
           </View>
@@ -217,6 +226,7 @@ exports[`test renders without crashing 1`] = `
           hasTVPreferredFocus={undefined}
           hitSlop={undefined}
           isTVSelectable={true}
+          nativeID={undefined}
           onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -224,16 +234,10 @@ exports[`test renders without crashing 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-              },
-              undefined,
-            ]
-          }
+          style={null}
           testID={undefined}
-          tvParallaxProperties={undefined}>
+          tvParallaxProperties={undefined}
+        >
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -244,7 +248,8 @@ exports[`test renders without crashing 1`] = `
                 "fontWeight": "bold",
                 "padding": 10,
               }
-            }>
+            }
+          >
             ?
           </Text>
         </View>
@@ -255,7 +260,8 @@ exports[`test renders without crashing 1`] = `
         Object {
           "flex": 1,
         }
-      }>
+      }
+    >
       <RCTScrollView
         className="scrollView"
         contentContainerStyle={
@@ -265,7 +271,8 @@ exports[`test renders without crashing 1`] = `
           }
         }
         scrollEventThrottle={1}
-        style={Object {}}>
+        style={Object {}}
+      >
         <View>
           <View
             style={
@@ -283,7 +290,8 @@ exports[`test renders without crashing 1`] = `
                   "paddingBottom": 10,
                 },
               ]
-            }>
+            }
+          >
             <View
               accessibilityComponentType={undefined}
               accessibilityLabel={undefined}
@@ -292,6 +300,7 @@ exports[`test renders without crashing 1`] = `
               hasTVPreferredFocus={undefined}
               hitSlop={undefined}
               isTVSelectable={true}
+              nativeID={undefined}
               onLayout={undefined}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -302,25 +311,21 @@ exports[`test renders without crashing 1`] = `
               style={
                 Array [
                   Object {
-                    "backgroundColor": "transparent",
+                    "borderRadius": 20,
+                    "paddingBottom": 8,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 8,
                   },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "paddingBottom": 8,
-                      "paddingLeft": 10,
-                      "paddingRight": 10,
-                      "paddingTop": 8,
-                    },
-                    Object {
-                      "backgroundColor": "#eee",
-                      "borderWidth": 0,
-                    },
-                  ],
+                  Object {
+                    "backgroundColor": "#eee",
+                    "borderWidth": 0,
+                  },
                 ]
               }
               testID={undefined}
-              tvParallaxProperties={undefined}>
+              tvParallaxProperties={undefined}
+            >
               <View
                 style={
                   Array [
@@ -333,7 +338,8 @@ exports[`test renders without crashing 1`] = `
                       "height": 20,
                     },
                   ]
-                }>
+                }
+              >
                 <Text
                   accessible={true}
                   allowFontScaling={true}
@@ -344,12 +350,14 @@ exports[`test renders without crashing 1`] = `
                       "fontSize": 16,
                       "fontWeight": "bold",
                     }
-                  } />
+                  }
+                />
                 <ActivityIndicator
                   animating={true}
                   color="#999999"
                   hidesWhenStopped={true}
-                  size="small" />
+                  size="small"
+                />
               </View>
             </View>
           </View>
@@ -360,14 +368,15 @@ exports[`test renders without crashing 1`] = `
 </View>
 `;
 
-exports[`test renders without crashing with Overlay visible 1`] = `
+exports[`renders without crashing with Overlay visible 1`] = `
 <View
   style={
     Object {
       "flex": 1,
       "justifyContent": "center",
     }
-  }>
+  }
+>
   <View />
   <View
     style={
@@ -375,7 +384,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
         "backgroundColor": "#ffb74d",
         "flex": 1,
       }
-    }>
+    }
+  >
     <View
       style={
         Object {
@@ -383,7 +393,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           "position": "absolute",
           "zIndex": 1,
         }
-      }>
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -396,7 +407,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
             "marginLeft": 675,
             "zIndex": 3,
           }
-        }>
+        }
+      >
         ⏏
       </Text>
       <View
@@ -408,7 +420,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
             "padding": 10,
             "width": 750,
           }
-        }>
+        }
+      >
         <Text
           accessible={true}
           allowFontScaling={true}
@@ -417,7 +430,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
             Object {
               "fontSize": 18,
             }
-          }>
+          }
+        >
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -426,7 +440,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
               Object {
                 "fontWeight": "bold",
               }
-            }>
+            }
+          >
             HAgnostic News
           </Text>
            is a simple Hacker News reader for the Web and a React Native app (Android / iOS).
@@ -440,13 +455,15 @@ exports[`test renders without crashing with Overlay visible 1`] = `
               "fontSize": 18,
               "marginTop": 20,
             }
-          }>
+          }
+        >
           Made with ❤ by
           <Text
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            onPress={[Function]}>
+            onPress={[Function]}
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -460,7 +477,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                   },
                   Object {},
                 ]
-              }>
+              }
+            >
                
               Luigi Maselli
             </Text>
@@ -470,7 +488,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            onPress={[Function]}>
+            onPress={[Function]}
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -484,7 +503,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                   },
                   Object {},
                 ]
-              }>
+              }
+            >
                
               github.com/grigio/HAgnostic-News
             </Text>
@@ -506,7 +526,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
             "paddingTop": 20,
           },
         ]
-      }>
+      }
+    >
       <View
         style={
           Array [
@@ -519,7 +540,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
               "height": 50,
             },
           ]
-        }>
+        }
+      >
         <View
           style={
             Object {
@@ -527,14 +549,16 @@ exports[`test renders without crashing with Overlay visible 1`] = `
               "flexDirection": "row",
               "justifyContent": "space-around",
             }
-          }>
+          }
+        >
           <Image
             source={1}
             style={
               Object {
                 "width": 20,
               }
-            } />
+            }
+          />
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -546,7 +570,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                   "paddingLeft": 4,
                 },
               ]
-            }>
+            }
+          >
             HAgnostic News
           </Text>
           <Text
@@ -560,7 +585,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                   "paddingLeft": 4,
                 },
               ]
-            }>
+            }
+          >
              
             ios
           </Text>
@@ -573,6 +599,7 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           hasTVPreferredFocus={undefined}
           hitSlop={undefined}
           isTVSelectable={true}
+          nativeID={undefined}
           onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -583,24 +610,20 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
+                "borderRadius": 20,
+                "paddingBottom": 8,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 8,
               },
-              Array [
-                Object {
-                  "borderRadius": 20,
-                  "paddingBottom": 8,
-                  "paddingLeft": 10,
-                  "paddingRight": 10,
-                  "paddingTop": 8,
-                },
-                Object {
-                  "backgroundColor": "#ff5722",
-                },
-              ],
+              Object {
+                "backgroundColor": "#ff5722",
+              },
             ]
           }
           testID={undefined}
-          tvParallaxProperties={undefined}>
+          tvParallaxProperties={undefined}
+        >
           <View
             style={
               Object {
@@ -608,7 +631,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                 "flexDirection": "row",
                 "justifyContent": "space-around",
               }
-            }>
+            }
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -619,7 +643,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                   "fontWeight": "bold",
                   "paddingRight": 5,
                 }
-              }>
+              }
+            >
               Top
             </Text>
           </View>
@@ -632,6 +657,7 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           hasTVPreferredFocus={undefined}
           hitSlop={undefined}
           isTVSelectable={true}
+          nativeID={undefined}
           onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -642,22 +668,18 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
+                "borderRadius": 20,
+                "paddingBottom": 8,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 8,
               },
-              Array [
-                Object {
-                  "borderRadius": 20,
-                  "paddingBottom": 8,
-                  "paddingLeft": 10,
-                  "paddingRight": 10,
-                  "paddingTop": 8,
-                },
-                null,
-              ],
+              null,
             ]
           }
           testID={undefined}
-          tvParallaxProperties={undefined}>
+          tvParallaxProperties={undefined}
+        >
           <View
             style={
               Object {
@@ -665,7 +687,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                 "flexDirection": "row",
                 "justifyContent": "space-around",
               }
-            }>
+            }
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -676,7 +699,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                   "fontWeight": "bold",
                   "paddingRight": 5,
                 }
-              }>
+              }
+            >
               Latest
             </Text>
           </View>
@@ -689,6 +713,7 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           hasTVPreferredFocus={undefined}
           hitSlop={undefined}
           isTVSelectable={true}
+          nativeID={undefined}
           onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -696,16 +721,10 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-              },
-              undefined,
-            ]
-          }
+          style={null}
           testID={undefined}
-          tvParallaxProperties={undefined}>
+          tvParallaxProperties={undefined}
+        >
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -716,7 +735,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                 "fontWeight": "bold",
                 "padding": 10,
               }
-            }>
+            }
+          >
             ?
           </Text>
         </View>
@@ -727,7 +747,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
         Object {
           "flex": 1,
         }
-      }>
+      }
+    >
       <RCTScrollView
         className="scrollView"
         contentContainerStyle={
@@ -737,7 +758,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
           }
         }
         scrollEventThrottle={1}
-        style={Object {}}>
+        style={Object {}}
+      >
         <View>
           <View
             style={
@@ -755,7 +777,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                   "paddingBottom": 10,
                 },
               ]
-            }>
+            }
+          >
             <View
               accessibilityComponentType={undefined}
               accessibilityLabel={undefined}
@@ -764,6 +787,7 @@ exports[`test renders without crashing with Overlay visible 1`] = `
               hasTVPreferredFocus={undefined}
               hitSlop={undefined}
               isTVSelectable={true}
+              nativeID={undefined}
               onLayout={undefined}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -774,25 +798,21 @@ exports[`test renders without crashing with Overlay visible 1`] = `
               style={
                 Array [
                   Object {
-                    "backgroundColor": "transparent",
+                    "borderRadius": 20,
+                    "paddingBottom": 8,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 8,
                   },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "paddingBottom": 8,
-                      "paddingLeft": 10,
-                      "paddingRight": 10,
-                      "paddingTop": 8,
-                    },
-                    Object {
-                      "backgroundColor": "#eee",
-                      "borderWidth": 0,
-                    },
-                  ],
+                  Object {
+                    "backgroundColor": "#eee",
+                    "borderWidth": 0,
+                  },
                 ]
               }
               testID={undefined}
-              tvParallaxProperties={undefined}>
+              tvParallaxProperties={undefined}
+            >
               <View
                 style={
                   Array [
@@ -805,7 +825,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                       "height": 20,
                     },
                   ]
-                }>
+                }
+              >
                 <Text
                   accessible={true}
                   allowFontScaling={true}
@@ -816,7 +837,8 @@ exports[`test renders without crashing with Overlay visible 1`] = `
                       "fontSize": 16,
                       "fontWeight": "bold",
                     }
-                  }>
+                  }
+                >
                   Load more
                 </Text>
               </View>

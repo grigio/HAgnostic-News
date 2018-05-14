@@ -4,18 +4,23 @@
   "private": true,
   "homepage": "http://grigio.github.io/HAgnostic-News",
   "devDependencies": {
-    "jest-cli": "18.0.0",
+    "jest-cli": "22.4.3",
     "jest-react-native": "^18.0.0",
-    "react-scripts": "0.8.5",
-    "react-test-renderer": "^15.4.2"
+    "react-scripts": "1.1.4",
+    "react-native-scripts": "1.14.0",
+    "jest-expo": "~27.0.0",
+    "react-test-renderer": "^16.3.2"
   },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "dependencies": {
+    "expo": "^27.0.1",
     "moment": "^2.15.1",
-    "react": "16.0.0-alpha.6",
-    "react-dom": "~15.4.1",
-    "react-native": "0.43.2",
+    "react": "^16.3.1",
+    "react-art": "^16.3.2",
+    "react-dom": "~16.3.2",
+    "react-native": "0.55.4",
     "react-native-material-design-styles": "^0.2.6",
-    "react-native-web": "0.0.81"
+    "react-native-web": "0.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +28,7 @@
     "eject": "react-scripts eject",
     "test": "./node_modules/.bin/jest",
     "snapshot:update": " ./node_modules/.bin/jest --updateSnapshot",
-    "startrn": "node ./scripts/startrn.js",
+    "startrn": "react-native-scripts start",
     "android:pkg:build": "cd android && ./gradlew assembleRelease",
     "android:pkg:install": "adb install android/app/build/outputs/apk/app-release.apk"
   },

@@ -1,4 +1,7 @@
 {
   "name": "HAgnosticNews",
-  "displayName": "HAgnosticNews"
+  "displayName": "HAgnosticNews",
+  "expo": {
+    "sdkVersion": "27.0.0"
+  }
 }
