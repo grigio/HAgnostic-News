@@ -15,6 +15,7 @@ exports[`renders without crashing 1`] = `
       Object {
         "backgroundColor": "#ffb74d",
         "flex": 1,
+        "paddingTop": 20,
       }
     }
   >
@@ -383,6 +384,7 @@ exports[`renders without crashing with Overlay visible 1`] = `
       Object {
         "backgroundColor": "#ffb74d",
         "flex": 1,
+        "paddingTop": 20,
       }
     }
   >
